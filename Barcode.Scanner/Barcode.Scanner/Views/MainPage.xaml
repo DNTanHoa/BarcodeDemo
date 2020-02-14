@@ -36,16 +36,17 @@
                     Margin="10"
                     Text="QRCode Scan"
                     BorderWidth="2"
+                    Command="{Binding callScannerCommand}"
                     TextColor="LightSeaGreen"
                     CornerRadius="10"
                     BorderColor="LightSeaGreen"></Button>
-            <Button BackgroundColor="White"
+            <!--<Button BackgroundColor="White"
                     Text="BarCode Scan"
                     Margin="10"
                     BorderWidth="2"
                     TextColor="LightSeaGreen"
                     CornerRadius="10"
-                    BorderColor="LightSeaGreen"></Button>
+                    BorderColor="LightSeaGreen"></Button>-->
         </StackLayout>
         <!--Footer-->
         <StackLayout Grid.Row="2"

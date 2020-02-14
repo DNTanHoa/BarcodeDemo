@@ -4,6 +4,7 @@ using Barcode.Scanner.ViewModels;
 using Barcode.Scanner.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using ZXing.Net.Mobile.Forms;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Barcode.Scanner
@@ -30,6 +31,7 @@ namespace Barcode.Scanner
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+            containerRegistry.RegisterForNavigation<ScannerPage, ScannerPageViewModel>();
         }
     }
 }
